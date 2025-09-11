@@ -140,8 +140,8 @@ flowchart TB
     C --> D[Heat Exchanger]
     D --> E["Energy Output<br>Steam/Electricity"]
     
-    classDef component fill:#f9f9f9,stroke:#333,stroke-width:1px;
-    classDef heater fill:#f9f900,stroke:#333,stroke-width:1px;
+    classDef component fill:#f9f9f9,stroke:#333,stroke-width:1px,color:#000;
+    classDef heater fill:#f9f900,stroke:#333,stroke-width:1px,color:#000;
     class A,E component;
     class B,D component;
 	class C heater;
