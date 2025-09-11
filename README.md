@@ -255,7 +255,7 @@ We're seeking **$500,000** for Phase 1 development in exchange for equity stake.
 ### Contact Us
 - **Email**: [legalgreenplanet@gmail.com](mailto:legalgreenplanet@gmail.com)
 - **Phone**: [+49 160 94940930](tel:+4916094940930)
-- **Address**: Berlin, Germany
+- **Address**: Bonn, Germany
 
 ### Contact Form
 

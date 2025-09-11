@@ -59,16 +59,16 @@ const ContactSlide = () => {
   return (
     <section id="contact" className="slide-section gradient-bg hero-pattern">
       <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-        <h2 className="text-4xl md:text-5xl font-bold text-white mb-6" data-testid="title-join-revolution">
+        <h2 className="text-4xl md:text-5xl font-bold mb-6" data-testid="title-join-revolution">
           Join the UCTS Revolution
         </h2>
-        <img 
-          src="https://images.unsplash.com/photo-1466611653911-95081537e5b7?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1200&h=400" 
-          alt="Solar panels in a landscape representing clean renewable energy future" 
+        <img
+          src="https://images.unsplash.com/photo-1466611653911-95081537e5b7?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1200&h=400"
+          alt="Solar panels in a landscape representing clean renewable energy future"
           className="rounded-xl shadow-2xl w-full h-64 object-cover mb-8"
           data-testid="img-solar-landscape"
         />
-        
+
         <div className="bg-white/95 backdrop-blur-sm p-8 rounded-2xl shadow-2xl">
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mb-8">
             <div className="text-center">
@@ -105,7 +105,7 @@ const ContactSlide = () => {
               </p>
             </div>
           </div>
-          
+
           <form onSubmit={handleSubmit} className="space-y-4 mb-6" data-testid="form-contact">
             <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
               <Input
@@ -144,8 +144,8 @@ const ContactSlide = () => {
               required
               data-testid="input-message"
             />
-            <Button 
-              type="submit" 
+            <Button
+              type="submit"
               className="w-full"
               disabled={contactMutation.isPending}
               data-testid="button-send-inquiry"
@@ -153,22 +153,22 @@ const ContactSlide = () => {
               {contactMutation.isPending ? "Sending..." : "Send Investment Inquiry"}
             </Button>
           </form>
-          
+
           <div className="space-y-4">
             <h3 className="text-xl font-semibold text-foreground" data-testid="title-contact-info">
               Contact
             </h3>
             <div className="flex flex-col md:flex-row md:justify-center md:space-x-8 space-y-2 md:space-y-0">
-              <a 
-                href="mailto:legalgreenplanet@gmail.com" 
+              <a
+                href="mailto:legalgreenplanet@gmail.com"
                 className="flex items-center justify-center space-x-2 text-primary hover:text-primary/80 transition-colors"
                 data-testid="link-email"
               >
                 <Mail className="w-5 h-5" />
                 <span>legalgreenplanet@gmail.com</span>
               </a>
-              <a 
-                href="tel:+4916094940930" 
+              <a
+                href="tel:+4916094940930"
                 className="flex items-center justify-center space-x-2 text-primary hover:text-primary/80 transition-colors"
                 data-testid="link-phone"
               >
