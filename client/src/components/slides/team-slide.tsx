@@ -1,4 +1,6 @@
 import { Handshake, Building, GraduationCap, Leaf } from "lucide-react";
+import AntonImage from '../../assets/anton.jpeg';
+import AlexanderImage from "../../assets/alexander.jpeg";
 
 const TeamSlide = () => {
   return (
@@ -13,7 +15,10 @@ const TeamSlide = () => {
           <div className="space-y-8">
             <div className="bg-card p-8 rounded-xl shadow-lg border border-border text-center">
               <div className="w-24 h-24 bg-primary text-primary-foreground rounded-full flex items-center justify-center text-2xl font-bold mx-auto mb-4" data-testid="avatar-aleksandr">
-                AS
+				<img src={AlexanderImage}
+              alt="Aleksandr Snigirev - Materials science and energy expert, sole creator with global vision"
+              className="rounded-xl shadow-lg w-full h-auto max-w-lg mx-auto"
+				/>
               </div>
               <h3 className="text-xl font-semibold text-foreground mb-2" data-testid="name-aleksandr">
                 Aleksandr Snigirev
@@ -25,7 +30,10 @@ const TeamSlide = () => {
             </div>
             <div className="bg-card p-8 rounded-xl shadow-lg border border-border text-center">
               <div className="w-24 h-24 bg-secondary text-secondary-foreground rounded-full flex items-center justify-center text-2xl font-bold mx-auto mb-4" data-testid="avatar-anton">
-                AZ
+				<img src={AntonImage}
+              alt="Anton Zubenko - Drives financial modeling and market strategy"
+              className="rounded-xl shadow-lg w-full h-auto max-w-lg mx-auto"
+				/>
               </div>
               <h3 className="text-xl font-semibold text-foreground mb-2" data-testid="name-anton">
                 Anton Zubenko
